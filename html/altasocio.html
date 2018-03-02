@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>alta socio</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<script type="text/javascript" src="../js/solicitud.js"></script>
+
+</head>
+<body>
+
+	<header>
+		<h1>SOLICITUD DE SOCIO:</h1>
+	</header>	
+
+<form method="get" action="procesaralta.js">
+	<fieldset>
+
+	Localización de abono:
+	<label for="este">preferencia este</label>
+	<input type="radio" name="este" id="este" value="e" >
+
+	<label for="oeste">preferencia oeste</label>
+	<input type="radio" name="este" id="oeste" value="o" >
+
+	<label for="sur">fondo sur</label>
+	<input type="radio" name="estee" id="sur" value="s" >
+
+	<label for="norte">fondo norte</label>
+	<input type="radio" name="este" id="norte" value="n" >
+
+	<label for="palco">palco</label>
+	<input type="radio" name="este" id="palco" value="p" >
+
+	<label for="trie">tribuna este</label>
+	<input type="radio" name="este" id="trie" value="te" >
+
+	<label for="trio">tribuna oeste</label>
+	<input type="radio" name="este" id="trio" value="to" >
+
+	<label for="fle">flexible</label>
+	<input type="radio" name="este" id="fle" value="f" >
+	<br><br>
+
+	Tipo de socio:
+	<select>
+		<option value="escuelas deportivas">escuelas deportivas</option>
+		<option value="junior">junior</option>
+		<option value="jupiter">jupiter</option>
+		<option value="adulto">adulto</option>
+		<option value="jubilado">jubilado</option>
+	</select>	
+
+	<br><br>
+	
+	Nombre:<input type="text" name="nombre" id="nombre">
+	<p>
+	Apellidos:<input type="text" name="apellidos" id="apellidos"><br><br>
+	Telefono:<input type="telf" name="telefono" id="telf"><br><br>
+	DNI:<input type="number" name="dni" id="dni"><br><br>
+	Correo electronico:<input type="email" name="correo" id="mail"></input>
+		
+	<br><br><br>
+
+	<figure ><img src="../images/precios.jpg" height="430px" width="430px"></figure>
+
+
+	<input type="submit" name="enviar" value="aupa cultural"></input>
+	<input type="reset" name="limpiar" ></input>
+
+
+</fieldset>
+</form>	
+
+<br><br>
+
+<footer>
+<pre>              telefono de contacto                                  politica de privacidad                             copyright</pre>
+</footer>
+
+
+</body>
+</html>
